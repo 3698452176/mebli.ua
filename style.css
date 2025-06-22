@@ -1,26 +1,82 @@
 *
 {
-  margin: 0;
-  padding: 0;
-  font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
 }
 nav
 {
-    background: url(https://to4ka.fun/wp-content/uploads/2023/06/Epitsentr-2.jpg);
+    background: url(https://mcl.kiev.ua/wp-content/uploads/2020/03/epicentrk_logo.png) no-repeat;
     height: 400px;
     background-size: 1500px 400px;
-        background-repeat: no-repeat;
+    padding: 10px 30px 0px;
+}
+nav li
+{
+    list-style: none;
+}
+body
+{
+    background-image: radial-gradient(yellow,orange);
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
 }
 
+.items
+{
+    text-align: center;
+}
 
+footer
+{
+    grid-column: 1 / -1;
+    height: 30vh;
+    background-image: radial-gradient(blue, rgb(107, 107, 255));
+    color: rgb(255, 219, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+footer p
+{
+    padding: 30px 0;
+}
 
+.map
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.social_contacts
+{
+    display: flex;
+    width: 10vh;
+    justify-content: space-around;
+}
 
+.social_contacts a:hover
+{
+    background-color: rgb(251, 255, 0);
+    transition: 1s;
+}
 
+@media all and (max-width: 600px) {
+  body
+    {
+        background-image: radial-gradient(rgb(26, 255, 0),rgb(0, 34, 255));
+        color: gold;
+    }
 
-
-
-
-
-
-
+    nav
+    {
+        background: url(https://mcl.kiev.ua/wp-content/uploads/2020/03/epicentrk_logo.png) no-repeat;
+        height: 400px;
+        background-size: 500px 450px;
+        padding: 10px 30px 0px;
+    }
+}

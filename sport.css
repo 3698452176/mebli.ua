@@ -1,0 +1,64 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+nav
+{
+    background: url(https://mcl.kiev.ua/wp-content/uploads/2020/03/epicentrk_logo.png) no-repeat;
+    height: 400px;
+    background-size: 1500px 400px;
+}
+
+body
+{
+background-image: radial-gradient(rgb(229, 255, 0),rgb(233, 143, 7));
+color: blue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+
+
+.item_img{
+    width: 50%;
+}
+.sneakers
+{
+width: 400px;
+height: 270px;
+}
+
+.tiles
+{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 1rem;
+ margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
